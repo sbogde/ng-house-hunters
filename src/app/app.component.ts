@@ -3,7 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   standalone: true,
   selector: 'app-root',
-  template: `<h1>Hello World!</h1>`,
+  template: `<main>
+    <header class="brand-name">
+      <img src="assets/logo.svg" alt="Homes App Logo" class="brand-logo" />
+    </header>
+  </main>`,
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
