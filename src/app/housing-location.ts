@@ -1,10 +1,2 @@
-export interface HousingLocation {
-    id: number,
-    name: string,
-    city: string,
-    state: string,
-    photo: string,
-    availableUnits: number,
-    wifi: boolean,
-    laundry: boolean
-}
+// Using the published npm package instead of local definition
+export { HousingLocation } from '@sbogde/housing-location-interface';
